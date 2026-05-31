@@ -6,6 +6,19 @@ __pycache__/
 # C extensions
 *.so
 
+# for protein design
+*.trb
+
+traj/
+
+all_pdb/
+
+outputs/
+
+*.zip
+
+*.cxs
+
 # Distribution / packaging
 .Python
 build/
