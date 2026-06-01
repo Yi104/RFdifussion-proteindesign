@@ -18,6 +18,10 @@ Target complex:
 - MDM2: chain `A`
 - p53 peptide: chain `B`
 
+![1YCR target complex](figs/1YCR.png)
+
+Figure 1. Native `1YCR` target complex containing MDM2 and the bound p53 peptide.
+
 Preserved motif:
 
 ```text
@@ -32,6 +36,10 @@ F19
 W23
 L26
 ```
+
+![1YCR hydrophobic surface](figs/1YCR-hydrophobic-surface.png)
+
+Figure 2. Hydrophobic MDM2 binding surface around the canonical p53 motif residues.
 
 These residues constitute the canonical p53 binding motif and are responsible for insertion into the MDM2 hydrophobic pocket.
 
@@ -111,6 +119,12 @@ L26
 4. Significant steric clashes were observed between the generated scaffold and the MDM2 surface after alignment.
 
 Importantly, this behavior was observed across all top-ranked scaffold designs.
+
+![Best model aligned with p53 but clashing with MDM2](figs/fig1_best_model_align_with_p53.png)
+
+Figure 3. Best model clashed with MDM2, although aligned with p53.
+
+The key motif residues are still preserved and point in the expected binding orientation. However, the newly generated scaffold region clashes with MDM2, indicating that the next design round needs to be target-aware rather than motif-only.
 
 ---
 
