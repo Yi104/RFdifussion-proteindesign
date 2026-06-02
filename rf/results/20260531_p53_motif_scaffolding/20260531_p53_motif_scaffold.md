@@ -158,11 +158,3 @@ Potential improvements include:
 4. Target-conditioned motif scaffolding approaches that explicitly account for MDM2 geometry during generation.
 
 ---
-
-## To Add Later
-
-- Top candidate table.
-- Screenshots of Design 2 and other top-ranked designs.
-- Motif alignment figure.
-- Clash visualization against MDM2.
-- Notes on whether the clash is caused by scaffold topology, contig placement, or missing target-conditioning.
